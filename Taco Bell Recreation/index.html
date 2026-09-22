@@ -1,0 +1,333 @@
+<html>
+<head>
+	<title>Taco Bell</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+
+
+
+</body>
+</html><style>
+
+/*Navbar CSS*/
+#logo{
+padding-left:35px;
+padding-right:35px;
+height:70px;
+width:auto;
+}
+
+.navbar-header{
+display:inline-flex;
+padding-right:5px;
+}
+
+.nav-pills > li{
+padding-right:3px;
+padding-top:1px;
+padding-bottom:1px;
+}
+
+.nav-pills > li > a{
+    height:70px;
+    padding:30px 30px;
+    background-color:#3B3837;
+    color:white;
+    transition:0.3s;
+}
+
+
+.nav-pills > li > a:hover{
+    background-color:#4A4746; 
+    color:white;
+    transform:translateY(-2px);
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus{
+    background-color:#5E17EB; 
+    color:white;
+}
+
+.dropdown-menu{
+    background-color:#3B3837;
+    border:none;
+}
+
+.dropdown-menu > li > a{
+    color:white;
+    padding:10px 20px;
+}
+
+.dropdown-menu > li > a:hover{
+    background-color:#4A4746;
+    color:white;
+}
+
+/*Footer CSS*/
+
+.list-inline > li > a{
+color:white;
+padding-left:15px;
+padding-right:15px;
+}
+
+.list-inline > li > a:hover{
+text-decoration:none;
+}
+
+#text-footer{
+color:white;
+text-align:justify;
+}
+
+/*Rest of the CSS*/
+
+#imgcarousel{
+height:90%;
+width:100%;
+}
+
+.img-rounded{
+border-radius:20px;
+}
+
+#caption {
+    position: absolute;
+    color:white;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+</style>
+
+<body>
+
+
+<nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
+<div class="container-fluid">
+	<div class="navbar-header">
+		<img src="https://www.pngall.com/wp-content/uploads/13/Taco-Bell-Logo-PNG-Cutout.png" class="img-responsive" id="logo">
+		<h4 class="navbar-brand"><b>TACO BELL</b></h4>
+		
+	</div>
+
+	<ul class="nav nav-pills navbar-right">
+		<li class="active"><a href="#menu">OUR FOOD</a></li>
+		<li><a href="whastnew.html">WHAT'S NEW</a></li>
+		<li><a href="news.html">NEWS</a></li>
+		<li><a href="findus.html">FIND US</a></li>
+		<li><a href="workwithus.html">CAREER</a></li>
+		<li class="dropdown">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown">MORE<span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li><a href="aboutus.html">ABOUT US</a></li>
+				<li><a href="contactus.html">CONTACT US</a></li>
+				<li><a href="tc.html">TERMS & CONDITIONS</a></li>
+				<li><a href="pp.html">PRIVACY POLICY</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+</nav><br><br><br>
+
+
+<div id="image" class="carousel slide" data-ride="carousel">
+	<ol class="carousel-indicators">
+		<li class="active" data-slide-to="0" data-target="#image"></li>
+		<li data-slide-to="1" data-target="#image"></li>
+		<li data-slide-to="2" data-target="#image"></li>
+		<li data-slide-to="3" data-target="#image"></li>
+	</ol>
+
+	<div class="carousel-inner">
+		<div class="item active"><img src="img/index/1.jpeg" class="img-responsive" id="imgcarousel"></div>
+		<div class="item"><img src="img/index/2.jpg" class="img-responsive" id="imgcarousel"></div>
+		<div class="item"><img src="img/index/3.jpg" class="img-responsive" id="imgcarousel"></div>
+		<div class="item"><img src="img/index/4.jpg" class="img-responsive" id="imgcarousel"></div>
+	</div>
+</div><br><br>
+
+<div class="container" id="menu">
+
+<center>
+	<h4 style="color:purple;"><b>OUR MENU</b></h4>
+	<h2><b>THE LINE-UP</b></h2>
+</center><br>
+
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><img src="img/index/img1.jpg" class="img-responsive img-rounded"></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><img src="img/index/img2.jpg" class="img-responsive img-rounded"></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><img src="img/index/img3.jpg" class="img-responsive img-rounded"></div>	
+	</div><br>
+	<div class="row">
+	<center>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><h4><b>NEWLY LAUNCHED</b></h4></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><h4><b>BIG BELL BOX COMBOS</b></h4></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><h4><b>EVERY DAY BEST VALUE</b></h4></div>
+	</center>
+	</div>
+	<!-- end of 1 row --><br><br>
+	
+
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><img src="img/index/img4.jpg" class="img-responsive img-rounded"></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><img src="img/index/img5.jpg" class="img-responsive img-rounded"></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><img src="img/index/img6.jpg" class="img-responsive img-rounded"></div>	
+	</div><br>
+	<div class="row">
+	<center>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><h4><b>MEAL MANIA</h4></b></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><h4><b>BIG SAVING COMBOS</h4></b></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><h4><b>TACO & CHALUPA</h4></b></div>
+	</center>
+	</div>
+	<!-- end of 2 row --><br><br>
+	
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><img src="img/index/img7.jpg" class="img-responsive img-rounded"></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><img src="img/index/img8.jpg" class="img-responsive img-rounded"></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><img src="img/index/img9.jpg" class="img-responsive img-rounded"></div>	
+	</div><br>
+	<div class="row">
+	<center>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><h4><b>BURRITO & WRAPS</b></h4></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><h4><b>RICE BOWLS</b></h4></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><h4><b>QUESADILLA</b></h4></div>
+	</center>
+	</div>
+	<!-- end of 3 row --><br><br>
+	
+
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><img src="img/index/img10.jpg" class="img-responsive img-rounded"></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><img src="img/index/img11.jpg" class="img-responsive img-rounded"></div>
+	</div><br>
+	<div class="row">
+	<center>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><h4><b>BEVERAGES</h4></b></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><h4><b>DESSERTS, SIDES & DIP</h4></b></div>
+	</center>
+	</div>
+	<!-- end of 4 row --><br><br>
+</div><br><br>
+
+
+
+<div id="findus" class="carousel slide" data-ride="carousel">
+	<div class="carousel-inner">
+		<div class="item active">
+			<img src="img/index/s1.jpg" class="img-responsive" id="imgcarousel">
+			<div class="carousel-caption" style="text-align:left;">
+				<h4><b>OUR RESTAURANTS</b></h4>
+				<h2><b>CONNAUGHT PLACE, DELHI</b></h2>
+			</div>
+		</div>
+		<div class="item">
+			<img src="img/index/s2.jpg" class="img-responsive" id="imgcarousel">
+			<div class="carousel-caption" style="text-align:left;">
+				<h4><b>OUR RESTAURANTS</b></h4>
+				<h2><b>CYBER HUB, GURUGRAM</b></h2>
+			</div>
+		</div>
+		<div class="item">
+			<img src="img/index/s3.jpg" class="img-responsive" id="imgcarousel">
+			<div class="carousel-caption" style="text-align:left;">
+				<h4><b>OUR RESTAURANTS</b></h4>
+				<h2><b>NEHRU PLACE, DELHI</b></h2>
+			</div>
+		</div>
+		<div class="item">
+			<img src="img/index/s4.jpg" class="img-responsive" id="imgcarousel">
+			<div class="carousel-caption" style="text-align:left;">
+				<h4><b>OUR RESTAURANTS</b></h4>
+				<h2><b>SJR KORAMANGLA, BANGALORE</b></h2>
+			</div>
+		</div>
+		<div class="item">
+			<img src="img/index/s5.jpg" class="img-responsive" id="imgcarousel">
+			<div class="carousel-caption" style="text-align:left;">
+				<h4><b>OUR RESTAURANTS</b></h4>
+				<h2><b>PANJAGUTTA, HYDERABAD</b></h2>
+			</div>
+		</div>
+		<div class="item">
+			<img src="img/index/s6.jpg" class="img-responsive" id="imgcarousel">
+			<div class="carousel-caption" style="text-align:left;">
+				<h4><b>To locate Other Taco Bell Restaurants in your city,</b></h4>
+				<h2><a href="findus.html">CLICK HERE</a></h2>
+			</div>
+		</div>
+	</div>
+	<a class="left carousel-control" data-slide="prev" href="#findus"><span class="glyphicon glyphicon-chevron-left"></span>
+	<span class="sr-only">Previous</span></a>
+	
+	<a class="right carousel-control" data-slide="next" href="#findus"><span class="glyphicon glyphicon-chevron-right"></span>
+	<span class="sr-only">Next</span></a>
+</div><br><br><br><br><br>
+
+<div class="container-fluid" style="padding:0px;position: relative;">
+	<img src="img/index/foot2.jpg" class="img-responsive" style="width:100%;">
+	<div id="caption">
+		<b><h1>THINK OUTSIDE</h1>
+		<h2>THE BUNS</h2></b>
+	</div>
+</div>
+
+
+
+<br><br><br>
+<div class="container-fluid" style="background-color:black;" id="footer">
+	<br>
+	<br>
+	<div class="row"">
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2"></div>
+		<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+			<center>
+			<ul class="list-inline" type="none">	
+				<li><a href="whastnew.html">WHAT'S NEW</a></li>
+				<li><a href="news.html">NEWS</a></li>
+				<li><a href="workwithus.html">CAREER</a></li>
+				<li><a href="findus.html">FIND US</a></li>
+				<li><a href="aboutus.html">ABOUT US</a></li>
+				<li><a href="contactus.html">CONTACT US</a></li>
+			</ul>
+			</center>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2"></div>
+	</div>
+	<br>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10"><img src="img/whatsnew/logo.png"></div>
+			<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+				<ul class="list-inline" type="none">
+				<li><a href="https://www.facebook.com/tacobellindia/"><img src="img/face.png" class="img-circle img-responsive"></a></li>
+				<li><a href="https://www.instagram.com/tacobellindia/"><img src="img/insta.png" class="img-circle img-responsive"></a></li>
+				<li><a href="https://twitter.com/tacobellindia"><img src="img/twitter.png" class="img-circle img-responsive"></a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<h5 id="text-footer"><b>TACO BELL</b></h5>
+		<div class="row"><div class="col-md-6">
+		<h5 id="text-footer">This website is a personal project created solely for educational and recreational purposes. It is not an official Taco Bell website and is not affiliated with, endorsed by, or sponsored by Taco Bell or its parent company.
+		</h5>
+		</div></div>
+		<br>
+	</div>
+</div>
+
+</body>
+</html>

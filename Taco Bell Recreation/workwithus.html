@@ -1,0 +1,254 @@
+<html>
+<head>
+	<title>Career</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+
+/*Navbar CSS*/
+#logo{
+padding-left:35px;
+padding-right:35px;
+height:70px;
+width:auto;
+}
+
+.navbar-header{
+display:inline-flex;
+padding-right:5px;
+}
+
+.nav-pills > li{
+padding-right:3px;
+padding-top:1px;
+padding-bottom:1px;
+}
+
+.nav-pills > li > a{
+    height:70px;
+    padding:30px 30px;
+    background-color:#3B3837;
+    color:white;
+    transition:0.3s;
+}
+
+
+.nav-pills > li > a:hover{
+    background-color:#4A4746; 
+    color:white;
+    transform:translateY(-2px);
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus{
+    background-color:#5E17EB; 
+    color:white;
+}
+
+.dropdown-menu{
+    background-color:#3B3837;
+    border:none;
+}
+
+.dropdown-menu > li > a{
+    color:white;
+    padding:10px 20px;
+}
+
+.dropdown-menu > li > a:hover{
+    background-color:#4A4746;
+    color:white;
+}
+
+/*Footer CSS*/
+
+.list-inline > li > a{
+color:white;
+padding-left:15px;
+padding-right:15px;
+}
+
+.list-inline > li > a:hover{
+text-decoration:none;
+}
+
+#text-footer{
+color:white;
+text-align:justify;
+}
+
+/*Rest of the CSS*/
+
+.carousel-caption {
+    top: 45%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#header{
+padding:0px;
+}
+
+#header-pic{
+height:75%;
+width:100%;
+}
+
+#middle{
+background-color:#f2f2f2;
+}
+
+
+</style>
+
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
+<div class="container-fluid">
+	<div class="navbar-header">
+		<img src="https://www.pngall.com/wp-content/uploads/13/Taco-Bell-Logo-PNG-Cutout.png" class="img-responsive" id="logo">
+		<h4 class="navbar-brand"><b>TACO BELL</b></h4>
+		
+	</div>
+
+	<ul class="nav nav-pills navbar-right">
+		<li><a href="index.html">OUR FOOD</a></li>
+		<li><a href="whastnew.html">WHAT'S NEW</a></li>
+		<li><a href="news.html">NEWS</a></li>
+		<li><a href="findus.html">FIND US</a></li>
+		<li class="active"><a href="workwithus.html">CAREER</a></li>
+		<li class="dropdown">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown">MORE<span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li><a href="aboutus.html">ABOUT US</a></li>
+				<li><a href="contactus.html">CONTACT US</a></li>
+				<li><a href="tc.html">TERMS & CONDITIONS</a></li>
+				<li><a href="pp.html">PRIVACY POLICY</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+</nav><br><br><br>
+
+
+<div class="container-fluid" id="header">
+<img src="img/workwithus/header.jpg" class="img-responsive" id="header-pic">
+<div class="carousel-caption">
+	<h2><b>START WITH US...<br>STAY WITH US</b></h2>
+</div>
+</div>
+
+
+<div class="container-fluid" id="middle"><br><br>
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3"></div>
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+			<img src="img/workwithus/img1.jpg" class="img-responsive">
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3"></div>
+	</div>
+	<br>
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2"></div>
+		<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+			<p>As one of the quickest expanding restaurant chains, Burman Hospitality, the master franchisee for Taco Bell in India, is constantly on the lookout for enthusiastic and skilled people. If you're eager to join our team, please get in touch by completing the form below:</p>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2"></div>
+	</div>
+<br>
+<br>
+</div>
+
+<div class="container">
+<form class="form-horizontal">
+	<h2 style="text-indent:125px;">Apply Now</h2>
+	<br>
+	<div class="form-group">
+		<label for="name" class="control-label col-sm-2">Name</label>
+		<div class="col-sm-10">
+		<input type="text" id="name" class="form-control" placeholder="Enter Name" required>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="number" class="control-label col-sm-2">Telephone</label>
+		<div class="col-sm-10">
+		<input type="tel" id="tele" class="form-control" placeholder="Enter Telephone" required>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="email" class="control-label col-sm-2">Email</label>
+		<div class="col-sm-10">
+		<input type="email" id="email" class="form-control" placeholder="youremail@email.com" required>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="file" class="control-label col-sm-2">Resume</label>
+		<div class="col-sm-10">
+		<input type="file" id="file" class="form-control" required>
+		</div>
+	</div>
+	
+	<div class="col-sm-offset-2 col-sm-10">
+		<p>By clicking submit, you agree to our <a href="pp.html">Privacy Policy</a> and <a href="tc.html">Terms of Use</a>.</p>
+	</div>
+	<div class="col-sm-offset-2 col-sm-10">
+		<button class="btn btn-primary" type="submit">Apply Now</button>
+	</div>
+</form>
+</div><br><br>
+
+
+<div class="container-fluid" style="background-color:black;" id="footer">
+	<br>
+	<br>
+	<div class="row"">
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2"></div>
+		<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+			<center>
+			<ul class="list-inline" type="none">	
+				<li><a href="whastnew.html">WHAT'S NEW</a></li>
+				<li><a href="news.html">NEWS</a></li>
+				<li><a href="workwithus.html">CAREER</a></li>
+				<li><a href="findus.html">FIND US</a></li>
+				<li><a href="aboutus.html">ABOUT US</a></li>
+				<li><a href="contactus.html">CONTACT US</a></li>
+			</ul>
+			</center>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2"></div>
+	</div>
+	<br>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10"><img src="img/whatsnew/logo.png"></div>
+			<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+				<ul class="list-inline" type="none">
+				<li><a href="https://www.facebook.com/tacobellindia/"><img src="img/face.png" class="img-circle img-responsive"></a></li>
+				<li><a href="https://www.instagram.com/tacobellindia/"><img src="img/insta.png" class="img-circle img-responsive"></a></li>
+				<li><a href="https://twitter.com/tacobellindia"><img src="img/twitter.png" class="img-circle img-responsive"></a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<h5 id="text-footer"><b>TACO BELL</b></h5>
+		<div class="row"><div class="col-md-6">
+		<h5 id="text-footer">This website is a personal project created solely for educational and recreational purposes. It is not an official Taco Bell website and is not affiliated with, endorsed by, or sponsored by Taco Bell or its parent company.
+		</h5>
+		</div></div>
+		<br>
+	</div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,384 @@
+<html>
+<head>
+	<title>Find Us</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+
+/*Navbar CSS*/
+#logo{
+padding-left:35px;
+padding-right:35px;
+height:70px;
+width:auto;
+}
+
+.navbar-header{
+display:inline-flex;
+padding-right:5px;
+}
+
+.nav-pills > li{
+padding-right:3px;
+padding-top:1px;
+padding-bottom:1px;
+}
+
+.nav-pills > li > a{
+    height:70px;
+    padding:30px 30px;
+    background-color:#3B3837;
+    color:white;
+    transition:0.3s;
+}
+
+
+.nav-pills > li > a:hover{
+    background-color:#4A4746; 
+    color:white;
+    transform:translateY(-2px);
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus{
+    background-color:#5E17EB; 
+    color:white;
+}
+
+.dropdown-menu{
+    background-color:#3B3837;
+    border:none;
+}
+
+.dropdown-menu > li > a{
+    color:white;
+    padding:10px 20px;
+}
+
+.dropdown-menu > li > a:hover{
+    background-color:#4A4746;
+    color:white;
+}
+
+/*Footer CSS*/
+
+.list-inline > li > a{
+color:white;
+padding-left:15px;
+padding-right:15px;
+}
+
+.list-inline > li > a:hover{
+text-decoration:none;
+}
+
+#text-footer{
+color:white;
+text-align:justify;
+}
+
+/*Rest of the CSS*/
+
+.carousel-caption {
+    top: 37%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#header{
+padding:0px;
+background-color: #f7f7f7;
+
+}
+
+#header-pic{
+height:75%;
+width:100%;
+}
+
+
+.glyphicon-time{
+color:purple;
+}
+
+.btn-primary{
+border-radius:20px;
+padding-left:10px;
+padding-right:10px;
+}
+
+#grey{
+color:#6f6f6f;
+}
+
+.modal-body{
+display:flex;
+align-items:center;
+border:5px solid purple;
+border-radius:15px;
+padding:15px;
+background-color: white;
+}
+
+#close{
+margin-left:auto;
+}
+
+#img-modal{
+    width:50px;
+    height:35px;
+    margin-right:10px;
+}
+
+
+</style>
+
+<body>
+
+
+<nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
+<div class="container-fluid">
+	<div class="navbar-header">
+		<img src="https://www.pngall.com/wp-content/uploads/13/Taco-Bell-Logo-PNG-Cutout.png" class="img-responsive" id="logo">
+		<h4 class="navbar-brand"><b>TACO BELL</b></h4>
+		
+	</div>
+
+	<ul class="nav nav-pills navbar-right">
+		<li><a href="index.html">OUR FOOD</a></li>
+		<li><a href="whastnew.html">WHAT'S NEW</a></li>
+		<li><a href="news.html">NEWS</a></li>
+		<li class="active"><a href="findus.html">FIND US</a></li>
+		<li><a href="workwithus.html">CAREER</a></li>
+		<li class="dropdown">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown">MORE<span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li><a href="aboutus.html">ABOUT US</a></li>
+				<li><a href="contactus.html">CONTACT US</a></li>
+				<li><a href="tc.html">TERMS & CONDITIONS</a></li>
+				<li><a href="pp.html">PRIVACY POLICY</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+</nav><br><br>
+
+<div class="container-fluid" id="header">
+<img src="img/findus/header.jpg" class="img-responsive" id="header-pic">
+<div class="carousel-caption">
+	<h2><b>FIND TACO BELL NEAR YOU</b></h2>
+	<h5><a href="safety.html">Click Here</a> To Check Our Safety and Hygiene Standards</h5>
+</div>
+</div>
+
+<br><br>
+
+<div class="container">
+	<h3><b>RESTRAUNTS OPEN FOR DINE-IN, DELIVERY AND TAKEAWAY</b></h3><br>
+	
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><img src="img/findus/1.jpg" class="img-responsive"></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><img src="img/findus/2.png" class="img-responsive"></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><img src="img/findus/3.jpg" class="img-responsive"></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2"><h5><b>Ambience Mall, Vasant Kunj</b></h5></div>
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2"></div>
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2"><h5><b>Mall of India</b></h5></div>
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2"></div>
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2"><h5><b>VR Mohali</b></h5></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><h6 id="grey"><span class="glyphicon glyphicon-time"></span><b> Timing:</b> 11am- 			11pm</h6></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><h6 id="grey"><span class="glyphicon glyphicon-time"></span><b> Timing:</b> 11am- 			11pm</h6></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><h6 id="grey"><span class="glyphicon glyphicon-time"></span><b> Timing:</b> 11am- 			11pm</h6></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><h6 id="grey"><b>Address:</b> Space No. 8 (T-316 A) on Third Floor, at Ambience Mall, 		Vasant Kunj, New Delhi, Delhi</h6></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><h6 id="grey"><b>Address:</b> Food Court Shop no – FC. 08, Fourth Floor, Mall of India, 		Noida, Plot no. M-03, Sector – 18, Noida, Uttar Pradesh</h6></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><h6 id="grey"><b>Address:</b> Store No. S-29/30/31, 2nd Floor, VR Mall, NH-21, Chandigarh 		Kharar Road, Sector 118, Sahibzada Ajit Singh Nagar, Mohali, Punjab</h6></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+			<button type="button" class="btn btn-primary" data-toggle="modal" href="#c1" onclick="showNum(9566315769)"><h5><span 					class="glyphicon glyphicon-phone-alt"></span> Call Now</h5></button>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+			<button type="button" class="btn btn-primary"><h5><span class="glyphicon glyphicon-map-marker"></span> Get Directions</h5></button>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+			<button type="button" class="btn btn-primary" data-toggle="modal" href="#c1" onclick="showNum(8768994969)"><h5><span 					class="glyphicon glyphicon-phone-alt"></span> Call Now</h5></button>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+			<button type="button" class="btn btn-primary"><h5><span class="glyphicon glyphicon-map-marker"></span> Get Directions</h5></button>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+			<button type="button" class="btn btn-primary" data-toggle="modal" href="#c1" onclick="showNum(9562346874)"><h5><span 					class="glyphicon glyphicon-phone-alt"></span> Call Now</h5></button>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+			<button type="button" class="btn btn-primary"><h5><span class="glyphicon glyphicon-map-marker"></span> Get Directions</h5></button>
+		</div>
+	</div>
+	<!-- end of 1 row --><br><br>
+
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><img src="img/findus/4.jpg" class="img-responsive"></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><img src="img/findus/5.jpg" class="img-responsive"></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><img src="img/findus/6.jpg" class="img-responsive"></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2"><h5><b>Kamla Nagar, Delhi</b></h5></div>
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2"></div>
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2"><h5><b>Ardee Mall</b></h5></div>
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2"></div>
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2"><h5><b>Logix Mall</b></h5></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><h6><span class="glyphicon glyphicon-time"></span><b> Timing:</b> 11am- 2am</h6></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><h6><span class="glyphicon glyphicon-time"></span><b> Timing:</b> 11am- 1am</h6></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><h6><span class="glyphicon glyphicon-time"></span><b> Timing:</b> 11am- 11pm</h6></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><h6><b>Address:</b> Shop No. UA27A, Jawahar Nagar, Malka Ganj Road, New Delhi, Delhi</h6>		</div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><h6><b>Address:</b> Shop No. A-18, 3rd Floor, Block-B, Ardee Mall, Ardee City, Sector 52, 		Gurugram, Haryana</h6></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><h6><b>Address:</b> Logix City Centre, 3rd Floor, Plot No. BW-58 Gof Marg, Sec 32, Near 		Noida City Centre Metro Station, Noida, Uttar Pradesh</h6></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+			<button type="button" class="btn btn-primary" data-toggle="modal" href="#c1" onclick="showNum(9566128769)"><h5><span 					class="glyphicon glyphicon-phone-alt"></span> Call Now</h5></button>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+			<button type="button" class="btn btn-primary"><h5><span class="glyphicon glyphicon-map-marker"></span> Get Directions</h5></button>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+			<button type="button" class="btn btn-primary" data-toggle="modal" href="#c1" onclick="showNum(8966791599)"><h5><span 					class="glyphicon glyphicon-phone-alt"></span> Call Now</h5></button>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+			<button type="button" class="btn btn-primary"><h5><span class="glyphicon glyphicon-map-marker"></span> Get Directions</h5></button>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+			<button type="button" class="btn btn-primary" data-toggle="modal" href="#c1" onclick="showNum(956677349)"><h5><span 					class="glyphicon glyphicon-phone-alt"></span> Call Now</h5></button>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+			<button type="button" class="btn btn-primary"><h5><span class="glyphicon glyphicon-map-marker"></span> Get Directions</h5></button>
+		</div>
+	</div>
+	<!-- end of 2 row --><br><br>
+
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><img src="img/findus/7.jpg" class="img-responsive"></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><img src="img/findus/8.jpg" class="img-responsive"></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><img src="img/findus/9.jpg" class="img-responsive"></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2"><h5><b>SJR Junction</b></h5></div>
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2"></div>
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2"><h5><b>Royal Meenakshi Mall</b></h5></div>
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2"></div>
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2"><h5><b>Hyderabad Next Galeria Mall, Hitech City</b></h5></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><h6><span class="glyphicon glyphicon-time"></span><b> Timing:</b> 11am- 11pm</h6></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><h6><span class="glyphicon glyphicon-time"></span><b> Timing:</b> 11am- 11pm</h6></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><h6><span class="glyphicon glyphicon-time"></span><b> Timing:</b> 11am- 11pm</h6></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><h6><b>Address:</b> Ground Floor & First Floor of S.J.R Junction, Plot no. 36, 100 Ft. 		Road, Koramangala Main Road, Ejipura, Bengaluru, Karnataka</h6></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><h6><b>Address:</b> Unit No. T007, 3rd Floor, Royal Meenakshi Mall, Bannerghatta Road, 		424/376/487, Survey No. 63, Hulimavu BBMP, Arakare, Bengaluru, Karnataka</h6></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><h6><b>Address:</b> Unit No. 6,7 & 8, Floor L-4, Survey No.64 (part),of Madhapur 			Village, Hitec City, Serilingampally Mandal, Rangareddy District, Hyderabad, Telangana</h6></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+			<button type="button" class="btn btn-primary" data-toggle="modal" href="#c1" onclick="showNum(9566315769)"><h5><span 					class="glyphicon glyphicon-phone-alt"></span> Call Now</h5></button>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+			<button type="button" class="btn btn-primary"><h5><span class="glyphicon glyphicon-map-marker"></span> Get Directions</h5></button>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+			<button type="button" class="btn btn-primary" data-toggle="modal" href="#c1" onclick="showNum(9566315769)"><h5><span 					class="glyphicon glyphicon-phone-alt"></span> Call Now</h5></button>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+			<button type="button" class="btn btn-primary"><h5><span class="glyphicon glyphicon-map-marker"></span> Get Directions</h5></button>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+			<button type="button" class="btn btn-primary" data-toggle="modal" href="#c1" onclick="showNum(9566315769)"><h5><span 					class="glyphicon glyphicon-phone-alt"></span> Call Now</h5></button>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+			<button type="button" class="btn btn-primary"><h5><span class="glyphicon glyphicon-map-marker"></span> Get Directions</h5></button>
+		</div>
+	</div>
+	<!-- end of 3 row --><br><br>
+
+</div>
+
+
+<!-- Call Now Pop ups from here -->
+
+<div class="modal fade" id="c1" role="dialog">
+	<div class="modal-dialog modal-sm">
+		<div class="modal-body">
+			<img src="img/logo.png" id="img-modal">
+			<h5 id="num"></h5>
+			<button type="button" class="btn btn-danger" data-dismiss="modal" id="close">Close</button>
+		</div>
+	</div>
+</div>
+
+
+<br><br>
+<div class="container-fluid" style="background-color:black;" id="footer">
+	<br>
+	<br>
+	<div class="row"">
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2"></div>
+		<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+			<center>
+			<ul class="list-inline" type="none">	
+				<li><a href="whastnew.html">WHAT'S NEW</a></li>
+				<li><a href="news.html">NEWS</a></li>
+				<li><a href="workwithus.html">CAREER</a></li>
+				<li><a href="findus.html">FIND US</a></li>
+				<li><a href="aboutus.html">ABOUT US</a></li>
+				<li><a href="contactus.html">CONTACT US</a></li>
+			</ul>
+			</center>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2"></div>
+	</div>
+	<br>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10"><img src="img/whatsnew/logo.png"></div>
+			<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+				<ul class="list-inline" type="none">
+				<li><a href="https://www.facebook.com/tacobellindia/"><img src="img/face.png" class="img-circle img-responsive"></a></li>
+				<li><a href="https://www.instagram.com/tacobellindia/"><img src="img/insta.png" class="img-circle img-responsive"></a></li>
+				<li><a href="https://twitter.com/tacobellindia"><img src="img/twitter.png" class="img-circle img-responsive"></a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<h5 id="text-footer"><b>TACO BELL</b></h5>
+		<div class="row"><div class="col-md-6">
+		<h5 id="text-footer">This website is a personal project created solely for educational and recreational purposes. It is not an official Taco Bell website and is not affiliated with, endorsed by, or sponsored by Taco Bell or its parent company.
+		</h5>
+		</div></div>
+		<br>
+	</div>
+</div>
+</body>
+<script>
+function showNum(number){
+document.getElementById("num").innerText=number;
+}
+</script>
+</html>

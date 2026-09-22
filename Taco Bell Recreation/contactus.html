@@ -1,0 +1,92 @@
+<html>
+<head>
+	<title>Contact Us</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+body{
+background-color: purple;
+color: white;
+}
+</style>
+
+<body>
+
+<div class="container-fluid">
+	<br>
+	<center>
+		<img src="img/logo.png" class="img-responsive" style="height:25%;">
+		<h3>Please share your order details and feedback below.</h3>
+	</center>
+	<br>
+	
+	<form>
+		<div class="form-group col-md-offset-1 col-md-10">
+			<label for="method" class="label-control">Ordering Method</label>
+			<select placeholder="Ordering Method" class="form-control" id="method" required>
+				<option>Dine In</option>
+				<option>Delivery</option>
+				<option>Takeaway</option>
+			</select>
+		</div>
+		<div class="form-group col-md-offset-1 col-md-10">
+			<label for="name" class="label-control">Name</label>
+			<input type="text" placeholder="Your Name" class="form-control" id="name" required>
+		</div>
+		<div class="form-group col-md-offset-1 col-md-10">
+			<label for="num" class="label-control">Contact Number</label>
+			<input type="tel" placeholder="Your Contact Number" class="form-control" id="num" required>
+		</div>
+		<div class="form-group col-md-offset-1 col-md-10">
+			<label for="email" class="label-control">Email ID</label>
+			<input type="email" placeholder="Email ID" class="form-control" id="email" required>
+		</div>
+		<div class="form-group col-md-offset-1 col-md-10">
+			<label for="rest" class="label-control">Restaurant Name</label>
+			<input list="methods" placeholder="Restaurant Name" class="form-control" id="rest" required>
+			<datalist id="methods">
+				<option value="Taco Bell - VR Mall, Chennai"></option>
+				<option value="Taco Bell - Express Avenue Mall, Chennai"></option>
+				<option value="Taco Bell - Phoenix Marketcity, Chennai"></option>
+				<option value="Taco Bell - Nexus Vijaya Mall, Chennai"></option>
+				<option value="Taco Bell - Marina Mall, Chennai"></option>
+				<option value="Taco Bell - Forum Vijaya Mall, Chennai"></option>
+				<option value="Taco Bell - Grand Square Mall, Chennai"></option>
+				<option value="Taco Bell - Vivira Mall, Chennai"></option>
+				<option value="Taco Bell - Ampa Skywalk, Chennai"></option>
+				<option value="Taco Bell - Chennai Airport Food Court"></option>
+			</datalist>
+		</div>
+		<div class="form-group col-md-offset-1 col-md-10">
+			<label for="order" class="label-control">Order ID/NO.</label>
+			<input type="text" placeholder="Order ID/No. as mentioned on your Invoice" class="form-control" id="order" required>
+		</div>
+		<div class="form-group col-md-offset-1 col-md-10">
+			<label for="date" class="label-control">Order Date</label>
+			<input type="date" placeholder="Order Date" class="form-control" id="date" required>
+		</div>
+		<div class="form-group col-md-offset-1 col-md-10">
+			<label for="pic" class="label-control">Picture related to your feedback. If any:</label>
+			<input type="file" placeholder="Attachment" class="form-control" id="pic">
+		</div>
+		<div class="form-group col-md-offset-1 col-md-10">
+			<label for="feedback" class="label-control">Feedback:</label>
+			<textarea placeholder="Please describe your feedback" class="form-control" id="feedback" rows="5" cols="25"required></textarea>
+		</div>
+		<div class="form-group col-md-offset-5 col-md-6">
+			<button onclick="message()" type="submit" class="btn btn-danger" style="border-radius:20px;">Submit</button>
+		</div>
+	</form>
+</div>
+
+<script>
+	function message(){
+		alert("Your Response has been noted!")
+	}
+</script>
+</body>

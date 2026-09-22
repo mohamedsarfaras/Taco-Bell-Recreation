@@ -1,0 +1,49 @@
+<html>
+<head> 
+<title> JS 1 </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+
+.modal-body{
+display:flex;
+align-items:center;
+border:5px solid purple;
+border-radius:15px;
+padding:15px;
+background-color: white;
+}
+
+#close{
+margin-left:auto;
+}
+
+#img-modal{
+    width:50px;
+    height:35px;
+    margin-right:10px;
+}
+
+
+</style>
+
+<body>
+
+<button type="button" class="btn btn-primary" data-toggle="modal" href="#c1"><h5><span class="glyphicon glyphicon-phone-alt"></span> 			Call Now</h5></button>
+
+<div class="modal fade" id="c1" role="dialog">
+	<div class="modal-dialog modal-sm">
+		<div class="modal-body">
+			<img src="img/logo.png" id="img-modal">
+			<h5>9360953511</h5>
+			<button type="button" class="btn btn-danger" data-dismiss="modal" id="close">Close</button>
+		</div>
+	</div>
+</div>
+</body>
+</html>
