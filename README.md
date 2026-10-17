@@ -4,7 +4,9 @@ A responsive **Taco Bell website recreation** built using HTML, CSS, JavaScript,
 
 ## 🚀 Live Demo
 
-🔗 [https://tacobellrecreation.netlify.app/](url)
+🌐 **[View Live Website](https://tacobellrecreation.netlify.app/)**
+
+🔗 https://tacobellrecreation.netlify.app/
 
 ## 📌 About the Project
 
